@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96f72f3b6b512ea408f128ade4c140c8, type: 3}
+  m_Name: Balloons
+  m_EditorClassIdentifier: 
+  inventoryItemType: 5
+  inventoryData:
+  - InventoryItemName: Default
+    InventoryItemShortDescription: Default Balloon
+    InventoryItemImage: {fileID: 21300000, guid: 535de196597eb62499f604e6a2c72f7d,
+      type: 3}
+    InventoryItemPurchaseCurrencyType: 0
+    InventoryItemPrice: 0
+    IAPData: {fileID: 0}
+    inventoryItemIndex: 0
+    inventoryItemType: 5
+    balloonTextureList:
+    - {fileID: 2800000, guid: 10b7539f46143ec4bb1c129e78001f54, type: 3}
+    - {fileID: 2800000, guid: 9ba745b3404e0a347970124b2fe3d558, type: 3}
+    - {fileID: 2800000, guid: 69aa6a6d88711654e9555eb88fba6bf1, type: 3}
+    purchaseState: 1
+  - InventoryItemName: Balloon_1
+    InventoryItemShortDescription: Balloon_1
+    InventoryItemImage: {fileID: 21300000, guid: 749d1a63881b56e40b4ea46d749dfe3c,
+      type: 3}
+    InventoryItemPurchaseCurrencyType: 0
+    InventoryItemPrice: 200
+    IAPData: {fileID: 11400000, guid: b5f840b435b92c14eb065a7bd8f63dfc, type: 2}
+    inventoryItemIndex: 1
+    inventoryItemType: 5
+    balloonTextureList:
+    - {fileID: 2800000, guid: 49e9bc68529cf444bb10b912b1df2a76, type: 3}
+    - {fileID: 2800000, guid: 7d206f528f8b54a45a1e2bdd298b365e, type: 3}
+    - {fileID: 2800000, guid: 0617cc09af96aae46b89ff14e58604eb, type: 3}
+    purchaseState: 0
+  - InventoryItemName: Balloon_2
+    InventoryItemShortDescription: Balloon_2
+    InventoryItemImage: {fileID: 21300000, guid: 7dee843e52e0117468a4a4d6fabc23b4,
+      type: 3}
+    InventoryItemPurchaseCurrencyType: 0
+    InventoryItemPrice: 700
+    IAPData: {fileID: 11400000, guid: d46bb85f318ba5f44aa5669181d28f17, type: 2}
+    inventoryItemIndex: 2
+    inventoryItemType: 5
+    balloonTextureList:
+    - {fileID: 2800000, guid: dceea8611d922544cb65d3a813f514d5, type: 3}
+    - {fileID: 2800000, guid: ed54afe065f343949b034da883151a79, type: 3}
+    - {fileID: 2800000, guid: 49dc84b2618b4a94a9f0a6a29eb0fa55, type: 3}
+    purchaseState: 1
+  - InventoryItemName: Balloon_3
+    InventoryItemShortDescription: Balloon_2
+    InventoryItemImage: {fileID: 21300000, guid: 986780f85de6d9044bd3bd8b314d996b,
+      type: 3}
+    InventoryItemPurchaseCurrencyType: 0
+    InventoryItemPrice: 1500
+    IAPData: {fileID: 11400000, guid: 28e710b60798fa144829e000abfb1070, type: 2}
+    inventoryItemIndex: 3
+    inventoryItemType: 5
+    balloonTextureList:
+    - {fileID: 2800000, guid: fa2792c8b0ac532458d431c8d75ae486, type: 3}
+    - {fileID: 2800000, guid: 858d25cca01a813458a218e2cda1082e, type: 3}
+    - {fileID: 2800000, guid: d35d2758ff7d7bf48a9890c5b6c96d59, type: 3}
+    purchaseState: 0
+  - InventoryItemName: Balloon_4
+    InventoryItemShortDescription: Balloon_2
+    InventoryItemImage: {fileID: 21300000, guid: 85c11fe95dda83140b2c0d35ef31a24f,
+      type: 3}
+    InventoryItemPurchaseCurrencyType: 1
+    InventoryItemPrice: 40
+    IAPData: {fileID: 11400000, guid: 96252728e85a6224aafd46961fe4b078, type: 2}
+    inventoryItemIndex: 4
+    inventoryItemType: 5
+    balloonTextureList:
+    - {fileID: 2800000, guid: a51ff55a039bc8e438e2b3e4b43d99f3, type: 3}
+    - {fileID: 2800000, guid: 726371934778f664e938dd992ea845ad, type: 3}
+    - {fileID: 2800000, guid: 6fda053482b9b7e42b5ef8e2365b4ac4, type: 3}
+    purchaseState: 2
+  - InventoryItemName: Balloon_5
+    InventoryItemShortDescription: Balloon_2
+    InventoryItemImage: {fileID: 21300000, guid: f00e4d2b36b28be42a35249636d1b271,
+      type: 3}
+    InventoryItemPurchaseCurrencyType: 1
+    InventoryItemPrice: 120
+    IAPData: {fileID: 11400000, guid: b19f03bc6d657ac47835a3844e5818d8, type: 2}
+    inventoryItemIndex: 5
+    inventoryItemType: 5
+    balloonTextureList:
+    - {fileID: 2800000, guid: c7b668aac249eb442add530c393e6a1c, type: 3}
+    - {fileID: 2800000, guid: d202a6409f9bd884aa71563896bcaa17, type: 3}
+    - {fileID: 2800000, guid: fddf378134f2fbb4780ce175a3629223, type: 3}
+    purchaseState: 0

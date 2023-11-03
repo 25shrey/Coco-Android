@@ -1,0 +1,141 @@
+{
+    "name": "MenuAction",
+    "maps": [
+        {
+            "name": "Mouse",
+            "id": "14578375-a1d5-42a2-997e-68f57f7e2295",
+            "actions": [
+                {
+                    "name": "MouseClick",
+                    "type": "Button",
+                    "id": "d352e7f8-00c6-4ca6-944b-cdb9e522afd8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "MousePosition",
+                    "type": "PassThrough",
+                    "id": "f73aace0-9ead-4fed-b282-b99c37d9f69d",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "849b704c-233b-4868-b808-261907d84221",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MouseClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5f467693-0d4d-49c8-8de4-ec86ae176d47",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MousePosition",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "UIInputs",
+            "id": "519ecbdd-1ddb-4b43-96c0-6bc9d4d93eee",
+            "actions": [
+                {
+                    "name": "Back",
+                    "type": "Button",
+                    "id": "56735907-d5b7-4d89-a1eb-4bfa63ed876b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a0f0d163-7040-4108-9573-245095639cdb",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Back",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c224f1a4-5699-4f92-9b0f-df52fb6a42fb",
+                    "path": "<Gamepad>/start",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Back",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "ControllerScroll",
+            "id": "835630ac-171a-46a3-a0ac-19ece8119e3c",
+            "actions": [
+                {
+                    "name": "ScrollerRight",
+                    "type": "Button",
+                    "id": "18744b99-69e7-420e-852c-f7256507d64e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ScrollerLeft",
+                    "type": "Button",
+                    "id": "872f68f4-42fc-452c-ba43-e58fa8df48e3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "69f761e4-99af-4040-93d5-b99661265c22",
+                    "path": "<Gamepad>/dpad/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ScrollerRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2b4811c1-51f0-4614-ae2e-2c6d8bac17d6",
+                    "path": "<Gamepad>/dpad/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ScrollerLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

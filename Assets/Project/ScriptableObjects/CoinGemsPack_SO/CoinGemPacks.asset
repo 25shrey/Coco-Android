@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6319bd49bac542248a022df5b1ae6397, type: 3}
+  m_Name: CoinGemPacks
+  m_EditorClassIdentifier: 
+  inventoryItemType: 0
+  inventoryData:
+  - InventoryItemName: Coins
+    InventoryItemShortDescription: Coin_Pack_1
+    InventoryItemImage: {fileID: 21300000, guid: d183b6b2cf4ac43eda62f5b1743fd8fe,
+      type: 3}
+    InventoryItemPurchaseCurrencyType: 2
+    InventoryItemPrice: 50
+    IAPData: {fileID: 11400000, guid: 4a047ec9cc05ad640a20be76abd62805, type: 2}
+    rewardCurrencyType: 0
+    rewardAmount: 600
+  - InventoryItemName: Bunch Of Coins
+    InventoryItemShortDescription: Coin_Pack_2
+    InventoryItemImage: {fileID: 21300000, guid: dc8bc63180ffa47e4a47e7cbf5b45ea8,
+      type: 3}
+    InventoryItemPurchaseCurrencyType: 2
+    InventoryItemPrice: 100
+    IAPData: {fileID: 11400000, guid: 7578e5a0add3100418b5d376acecb92d, type: 2}
+    rewardCurrencyType: 0
+    rewardAmount: 2200
+  - InventoryItemName: Pile Of Coins
+    InventoryItemShortDescription: Coin_Pack_3
+    InventoryItemImage: {fileID: 21300000, guid: 86916012829bd4a8293dade10307c29b,
+      type: 3}
+    InventoryItemPurchaseCurrencyType: 2
+    InventoryItemPrice: 200
+    IAPData: {fileID: 11400000, guid: 75febdc71c74dc34387bf7c23b5d910c, type: 2}
+    rewardCurrencyType: 0
+    rewardAmount: 5000
+  - InventoryItemName: Gems
+    InventoryItemShortDescription: Gems_Pack_1
+    InventoryItemImage: {fileID: 21300000, guid: 1c0a2909e9ea84472ab136878b171c16,
+      type: 3}
+    InventoryItemPurchaseCurrencyType: 2
+    InventoryItemPrice: 50
+    IAPData: {fileID: 11400000, guid: 3ae6b216d620ac148aa841f168147566, type: 2}
+    rewardCurrencyType: 1
+    rewardAmount: 30
+  - InventoryItemName: Bunch Of Gems
+    InventoryItemShortDescription: Gems_Pack_2
+    InventoryItemImage: {fileID: 21300000, guid: c6d2420c959854a42af2b4c62140023b,
+      type: 3}
+    InventoryItemPurchaseCurrencyType: 2
+    InventoryItemPrice: 100
+    IAPData: {fileID: 11400000, guid: c210a2215559b16478cf197d1862b876, type: 2}
+    rewardCurrencyType: 1
+    rewardAmount: 120
+  - InventoryItemName: Pile Of Gems
+    InventoryItemShortDescription: Gems_Pack_3
+    InventoryItemImage: {fileID: 21300000, guid: 6244d620031014c84b04fd768985234a,
+      type: 3}
+    InventoryItemPurchaseCurrencyType: 2
+    InventoryItemPrice: 200
+    IAPData: {fileID: 11400000, guid: 971c4ace2aa4b4d4fb539c4134d94d89, type: 2}
+    rewardCurrencyType: 1
+    rewardAmount: 300

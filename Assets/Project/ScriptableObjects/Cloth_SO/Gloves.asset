@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d28ff2a988a8ad428596026f3ec6c94, type: 3}
+  m_Name: Gloves
+  m_EditorClassIdentifier: 
+  inventoryItemType: 4
+  inventoryData:
+  - InventoryItemName: Default
+    InventoryItemShortDescription: Default Glove
+    InventoryItemImage: {fileID: 21300000, guid: 28c9d21ee00c04508b13788e307d362e,
+      type: 3}
+    InventoryItemPurchaseCurrencyType: 0
+    InventoryItemPrice: 0
+    IAPData: {fileID: 0}
+    inventoryItemIndex: 0
+    inventoryItemType: 4
+    purchaseState: 2
+    isSkinnedMeshNeeded: 1
+    clothObject: {fileID: -5118896610998525603, guid: 1f39eda7d38dfda4fbb86e56f73d7874,
+      type: 3}
+  - InventoryItemName: Glove_1
+    InventoryItemShortDescription: Glove_1
+    InventoryItemImage: {fileID: 21300000, guid: 79ab78f1f3c839540ad147594ef74d7f,
+      type: 3}
+    InventoryItemPurchaseCurrencyType: 1
+    InventoryItemPrice: 120
+    IAPData: {fileID: 11400000, guid: 332db6c2ad8168141973ba57ffac397c, type: 2}
+    inventoryItemIndex: 1
+    inventoryItemType: 4
+    purchaseState: 1
+    isSkinnedMeshNeeded: 1
+    clothObject: {fileID: -5118896610998525603, guid: a06c46a8e68d0d040be32668d0151d59,
+      type: 3}
+  - InventoryItemName: Glove_2
+    InventoryItemShortDescription: Glove_2
+    InventoryItemImage: {fileID: 21300000, guid: 2db7c09cced5cbd4dbcb180febaf97b0,
+      type: 3}
+    InventoryItemPurchaseCurrencyType: 1
+    InventoryItemPrice: 40
+    IAPData: {fileID: 11400000, guid: 10637b873dcb9d44d9414fac2cb67cae, type: 2}
+    inventoryItemIndex: 2
+    inventoryItemType: 4
+    purchaseState: 0
+    isSkinnedMeshNeeded: 1
+    clothObject: {fileID: -5118896610998525603, guid: b7572fb131a4ffc459b602b26148a8c6,
+      type: 3}
+  - InventoryItemName: Glove_3
+    InventoryItemShortDescription: Glove_2
+    InventoryItemImage: {fileID: 21300000, guid: 7f1d1bb3b72c30847907757e88a93602,
+      type: 3}
+    InventoryItemPurchaseCurrencyType: 0
+    InventoryItemPrice: 200
+    IAPData: {fileID: 11400000, guid: 15cf173987f010b488722ccdec5c66ca, type: 2}
+    inventoryItemIndex: 3
+    inventoryItemType: 4
+    purchaseState: 0
+    isSkinnedMeshNeeded: 1
+    clothObject: {fileID: -5118896610998525603, guid: d0c8d74f6249f8d488e9ab1a9000c748,
+      type: 3}

@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d28ff2a988a8ad428596026f3ec6c94, type: 3}
+  m_Name: FullOutfits
+  m_EditorClassIdentifier: 
+  inventoryItemType: 0
+  inventoryData:
+  - InventoryItemName: 'Default '
+    InventoryItemShortDescription: Default FullOutfit
+    InventoryItemImage: {fileID: 21300000, guid: 4b2d1337ebb164378ad25f8a5558f58d,
+      type: 3}
+    InventoryItemPurchaseCurrencyType: 0
+    InventoryItemPrice: 0
+    IAPData: {fileID: 0}
+    inventoryItemIndex: 0
+    inventoryItemType: 0
+    purchaseState: 1
+    isSkinnedMeshNeeded: 1
+    clothObject: {fileID: 1855449636436557686, guid: aea98019301362c46990b54fdaf65566,
+      type: 3}
+  - InventoryItemName: 'Retro '
+    InventoryItemShortDescription: FullOutfit_1
+    InventoryItemImage: {fileID: 21300000, guid: be180602383b44242ae30361a0df75d0,
+      type: 3}
+    InventoryItemPurchaseCurrencyType: 0
+    InventoryItemPrice: 200
+    IAPData: {fileID: 11400000, guid: da3428a76dd7cec48986057d97af6a16, type: 2}
+    inventoryItemIndex: 1
+    inventoryItemType: 0
+    purchaseState: 1
+    isSkinnedMeshNeeded: 1
+    clothObject: {fileID: 3413384598410348842, guid: 4bd59cc9cbf6bbf4b802fc071c58e07f,
+      type: 3}
+  - InventoryItemName: 'Adventure '
+    InventoryItemShortDescription: FullOutfit_2
+    InventoryItemImage: {fileID: 21300000, guid: 85959f1af8f430148bf3b5e0906f481a,
+      type: 3}
+    InventoryItemPurchaseCurrencyType: 1
+    InventoryItemPrice: 10
+    IAPData: {fileID: 11400000, guid: 01beb6997b7d3cc4a83bb9ec01aa621f, type: 2}
+    inventoryItemIndex: 2
+    inventoryItemType: 0
+    purchaseState: 1
+    isSkinnedMeshNeeded: 1
+    clothObject: {fileID: 6588028614689853316, guid: 2135b180c6a96b343a242a62e31f864f,
+      type: 3}
+  - InventoryItemName: Paradise
+    InventoryItemShortDescription: FullOutfit_2
+    InventoryItemImage: {fileID: 21300000, guid: 49ca870f7b1780346bf71c585f57169b,
+      type: 3}
+    InventoryItemPurchaseCurrencyType: 0
+    InventoryItemPrice: 700
+    IAPData: {fileID: 11400000, guid: 22318048b61d557468c135187307a89c, type: 2}
+    inventoryItemIndex: 3
+    inventoryItemType: 0
+    purchaseState: 1
+    isSkinnedMeshNeeded: 1
+    clothObject: {fileID: 2300537629979223725, guid: f13e1da2a33d69b49a630d446909b99b,
+      type: 3}
+  - InventoryItemName: Jungle Safari
+    InventoryItemShortDescription: FullOutfit_2
+    InventoryItemImage: {fileID: 21300000, guid: dbb27b11e966dfd4e8daa797d4d45c84,
+      type: 3}
+    InventoryItemPurchaseCurrencyType: 1
+    InventoryItemPrice: 40
+    IAPData: {fileID: 11400000, guid: 729d754119f5ae6429ac24449395addb, type: 2}
+    inventoryItemIndex: 4
+    inventoryItemType: 0
+    purchaseState: 1
+    isSkinnedMeshNeeded: 1
+    clothObject: {fileID: 2662442295298329181, guid: bc7694887fdda734b949ba487d098e49,
+      type: 3}
+  - InventoryItemName: Farm Attire
+    InventoryItemShortDescription: FullOutfit_2
+    InventoryItemImage: {fileID: 21300000, guid: dec84fc54d0d9834cab94093f00f8642,
+      type: 3}
+    InventoryItemPurchaseCurrencyType: 0
+    InventoryItemPrice: 1500
+    IAPData: {fileID: 11400000, guid: d7b092fd5efd0104bb914fbdd214a57d, type: 2}
+    inventoryItemIndex: 5
+    inventoryItemType: 0
+    purchaseState: 1
+    isSkinnedMeshNeeded: 1
+    clothObject: {fileID: 434878494597440520, guid: fe6cb85ade9687244aedea1f56c61baf,
+      type: 3}
+  - InventoryItemName: Nature Explorer
+    InventoryItemShortDescription: FullOutfit_2
+    InventoryItemImage: {fileID: 21300000, guid: d433017dc51e4014099b10a54d6ba67d,
+      type: 3}
+    InventoryItemPurchaseCurrencyType: 0
+    InventoryItemPrice: 1500
+    IAPData: {fileID: 11400000, guid: e2eaaa564a3b391488300d32a7154238, type: 2}
+    inventoryItemIndex: 6
+    inventoryItemType: 0
+    purchaseState: 1
+    isSkinnedMeshNeeded: 1
+    clothObject: {fileID: 919132147905007609, guid: e4e2edac8f5289543b1d24e76a5f4060,
+      type: 3}
+  - InventoryItemName: Cosmic Guardian
+    InventoryItemShortDescription: FullOutfit_2
+    InventoryItemImage: {fileID: 21300000, guid: f7722a957aad84b44a16265a9f1b582c,
+      type: 3}
+    InventoryItemPurchaseCurrencyType: 1
+    InventoryItemPrice: 120
+    IAPData: {fileID: 11400000, guid: 6fc4bc929379c1c4f81ac5ad6eaadafe, type: 2}
+    inventoryItemIndex: 7
+    inventoryItemType: 0
+    purchaseState: 2
+    isSkinnedMeshNeeded: 1
+    clothObject: {fileID: -4959964645676098204, guid: 7af91c6342a644a4ca66b5cebe3c4f69,
+      type: 3}

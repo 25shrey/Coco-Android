@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d28ff2a988a8ad428596026f3ec6c94, type: 3}
+  m_Name: Shoes
+  m_EditorClassIdentifier: 
+  inventoryItemType: 2
+  inventoryData:
+  - InventoryItemName: Default
+    InventoryItemShortDescription: Default Shoes
+    InventoryItemImage: {fileID: 21300000, guid: 219c40b6166d84beb9fb98cd8d886e0b,
+      type: 3}
+    InventoryItemPurchaseCurrencyType: 0
+    InventoryItemPrice: 0
+    IAPData: {fileID: 0}
+    inventoryItemIndex: 0
+    inventoryItemType: 2
+    purchaseState: 1
+    isSkinnedMeshNeeded: 1
+    clothObject: {fileID: 6215238900864777645, guid: ed04fcd4436876a4e80a32b76da640a4,
+      type: 3}
+  - InventoryItemName: Adventure
+    InventoryItemShortDescription: Shoes_1
+    InventoryItemImage: {fileID: 21300000, guid: 9210d39068a24cd4fa1dd0af2e284c05,
+      type: 3}
+    InventoryItemPurchaseCurrencyType: 0
+    InventoryItemPrice: 700
+    IAPData: {fileID: 11400000, guid: 53e880c7d5aa7484fb86d7d4fb44a25e, type: 2}
+    inventoryItemIndex: 1
+    inventoryItemType: 2
+    purchaseState: 1
+    isSkinnedMeshNeeded: 1
+    clothObject: {fileID: 5822247069171396568, guid: 50f7b31372d6e3e44bb739d945db9d40,
+      type: 3}
+  - InventoryItemName: Casual
+    InventoryItemShortDescription: Shoes_2
+    InventoryItemImage: {fileID: 21300000, guid: ef650a4607d26264186caa7dfb50b054,
+      type: 3}
+    InventoryItemPurchaseCurrencyType: 1
+    InventoryItemPrice: 40
+    IAPData: {fileID: 11400000, guid: 861a9df9b48378842a86ae84bf7d3166, type: 2}
+    inventoryItemIndex: 2
+    inventoryItemType: 2
+    purchaseState: 1
+    isSkinnedMeshNeeded: 1
+    clothObject: {fileID: 1099161585371406854, guid: d156d1c97eb125a489ad037632c11084,
+      type: 3}
+  - InventoryItemName: Casual 2
+    InventoryItemShortDescription: Shoes_2
+    InventoryItemImage: {fileID: 21300000, guid: b644a97175d7693498c499775d8c8bd7,
+      type: 3}
+    InventoryItemPurchaseCurrencyType: 1
+    InventoryItemPrice: 40
+    IAPData: {fileID: 11400000, guid: 947cd819a7f4430459b9ca2196301bd8, type: 2}
+    inventoryItemIndex: 3
+    inventoryItemType: 2
+    purchaseState: 0
+    isSkinnedMeshNeeded: 1
+    clothObject: {fileID: 4883715677697402033, guid: 9ba031b896e77fe4c9935f8ef8d4c202,
+      type: 3}
+  - InventoryItemName: Sports
+    InventoryItemShortDescription: Shoes_2
+    InventoryItemImage: {fileID: 21300000, guid: ddcd2193dbae524418a4121b95592622,
+      type: 3}
+    InventoryItemPurchaseCurrencyType: 0
+    InventoryItemPrice: 1500
+    IAPData: {fileID: 11400000, guid: cf732e2944b26884ea443550a1385b43, type: 2}
+    inventoryItemIndex: 4
+    inventoryItemType: 2
+    purchaseState: 2
+    isSkinnedMeshNeeded: 1
+    clothObject: {fileID: 3371845349044184023, guid: 00d6953421242124c91cda2cdf8bc71a,
+      type: 3}
+  - InventoryItemName: Sports 2
+    InventoryItemShortDescription: Shoes_2
+    InventoryItemImage: {fileID: 21300000, guid: 471596cbe2e52d345b1b9b0fcf7f31e8,
+      type: 3}
+    InventoryItemPurchaseCurrencyType: 1
+    InventoryItemPrice: 120
+    IAPData: {fileID: 11400000, guid: d07f7fa7568120e4b94bd8f944af5058, type: 2}
+    inventoryItemIndex: 5
+    inventoryItemType: 2
+    purchaseState: 0
+    isSkinnedMeshNeeded: 1
+    clothObject: {fileID: 3803044461569404436, guid: 26bca541d6406024495c730f5123a888,
+      type: 3}
+  - InventoryItemName: Sports 3
+    InventoryItemShortDescription: Shoes_2
+    InventoryItemImage: {fileID: 21300000, guid: 22831c599494e9544b7fd52d97aff259,
+      type: 3}
+    InventoryItemPurchaseCurrencyType: 1
+    InventoryItemPrice: 120
+    IAPData: {fileID: 11400000, guid: 003b9fc20a7c4db4aa73b4988cea4cc9, type: 2}
+    inventoryItemIndex: 6
+    inventoryItemType: 2
+    purchaseState: 0
+    isSkinnedMeshNeeded: 1
+    clothObject: {fileID: 4581182257293271270, guid: cfef19f70bedcec4d9b906ab091fdd65,
+      type: 3}
+  - InventoryItemName: Flipper
+    InventoryItemShortDescription: Shoes_2
+    InventoryItemImage: {fileID: 21300000, guid: d11dc3b57901534458a76948edbe91f5,
+      type: 3}
+    InventoryItemPurchaseCurrencyType: 0
+    InventoryItemPrice: 200
+    IAPData: {fileID: 11400000, guid: 05c7877540972cb4bb7c55dedba45140, type: 2}
+    inventoryItemIndex: 7
+    inventoryItemType: 2
+    purchaseState: 0
+    isSkinnedMeshNeeded: 1
+    clothObject: {fileID: 2561799642188955463, guid: 2d621d2c202aca94daf8d44c9889c8b9,
+      type: 3}
+  - InventoryItemName: Sliders
+    InventoryItemShortDescription: Shoes_2
+    InventoryItemImage: {fileID: 21300000, guid: abca5a46d7fab1944813e2a8074717a2,
+      type: 3}
+    InventoryItemPurchaseCurrencyType: 1
+    InventoryItemPrice: 10
+    IAPData: {fileID: 11400000, guid: ad24b25474e68ce4ea0cde272e6725eb, type: 2}
+    inventoryItemIndex: 8
+    inventoryItemType: 2
+    purchaseState: 0
+    isSkinnedMeshNeeded: 1
+    clothObject: {fileID: 5309554228645157213, guid: a4157d8a9c97bb049bc873f757af07f8,
+      type: 3}

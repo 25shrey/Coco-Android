@@ -1,0 +1,10 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public interface ICollectable
+{
+    void Show();
+    void Hide();
+    void Collect();
+}

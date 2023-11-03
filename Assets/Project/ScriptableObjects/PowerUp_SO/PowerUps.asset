@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a381d02aa2ccc1a4e9bb112b78185195, type: 3}
+  m_Name: PowerUps
+  m_EditorClassIdentifier: 
+  inventoryItemType: 0
+  inventoryData:
+  - InventoryItemName: Magnet_3
+    InventoryItemShortDescription: Magnet_3
+    InventoryItemImage: {fileID: 21300000, guid: e92a69a8a53dd41469e4f019606d0ff8,
+      type: 3}
+    InventoryItemPurchaseCurrencyType: 0
+    InventoryItemPrice: 200
+    IAPData: {fileID: 11400000, guid: 2d8425827646c9a44bd10109e4ef8b13, type: 2}
+    powerUpType: 1
+    powerUpQuantity: 3
+  - InventoryItemName: Shield_3
+    InventoryItemShortDescription: Shield_3
+    InventoryItemImage: {fileID: 21300000, guid: 621d43334d68ba94884e62a1557db6af,
+      type: 3}
+    InventoryItemPurchaseCurrencyType: 0
+    InventoryItemPrice: 200
+    IAPData: {fileID: 11400000, guid: 0bab1cb4fb88cc24d9e5a601d25aedb6, type: 2}
+    powerUpType: 2
+    powerUpQuantity: 3
+  - InventoryItemName: FireBall_3
+    InventoryItemShortDescription: FireBall_3
+    InventoryItemImage: {fileID: 21300000, guid: a6fa6505d30919a49b9ad9cc2e0c7427,
+      type: 3}
+    InventoryItemPurchaseCurrencyType: 0
+    InventoryItemPrice: 200
+    IAPData: {fileID: 11400000, guid: fb36ef824415b8545a2e757f67bbbdd4, type: 2}
+    powerUpType: 3
+    powerUpQuantity: 3
+  - InventoryItemName: Magnet_5
+    InventoryItemShortDescription: Magnet_5
+    InventoryItemImage: {fileID: 21300000, guid: e92a69a8a53dd41469e4f019606d0ff8,
+      type: 3}
+    InventoryItemPurchaseCurrencyType: 1
+    InventoryItemPrice: 40
+    IAPData: {fileID: 11400000, guid: 603473755c4d76246806a09f8b33ac6c, type: 2}
+    powerUpType: 1
+    powerUpQuantity: 10
+  - InventoryItemName: Shield_5
+    InventoryItemShortDescription: Shield_5
+    InventoryItemImage: {fileID: 21300000, guid: 621d43334d68ba94884e62a1557db6af,
+      type: 3}
+    InventoryItemPurchaseCurrencyType: 1
+    InventoryItemPrice: 40
+    IAPData: {fileID: 11400000, guid: b8f47f2a7a270524da8a0a4f8bc4ec42, type: 2}
+    powerUpType: 2
+    powerUpQuantity: 10
+  - InventoryItemName: FireBall_5
+    InventoryItemShortDescription: FireBall_5
+    InventoryItemImage: {fileID: 21300000, guid: a6fa6505d30919a49b9ad9cc2e0c7427,
+      type: 3}
+    InventoryItemPurchaseCurrencyType: 1
+    InventoryItemPrice: 40
+    IAPData: {fileID: 11400000, guid: aa1d6c401d8bd2d48a817091ae5b7b77, type: 2}
+    powerUpType: 3
+    powerUpQuantity: 10
