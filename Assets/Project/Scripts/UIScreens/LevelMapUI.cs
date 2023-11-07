@@ -36,6 +36,7 @@ public class LevelMapUI : UIScreenView
             StartCoroutine(SwitchScreen(ScreenType.LevelMap));
             screenLoadingStarted = true;
         }
+        Debug.Log("--------");
     }
 
     public override void OnScreenHideAnimationCompleted()
@@ -61,6 +62,70 @@ public class LevelMapUI : UIScreenView
 
     AsyncOperation sceneLoadOperation;
 
+    //IEnumerator SwitchScreen(ScreenType screen)
+    //{
+    //    UpdateLevelUI();
+
+    //    yield return new WaitForSeconds(1f);
+
+    //    UIController.Instance.HideScreen(screen);
+
+    //    SceneLoaderUI.Instance.Show();
+
+    //    yield return new WaitForSeconds(1f);
+
+    //    if (screenLoadingStarted)
+    //    {
+    //        OnScreenHideAnimationCompleted();
+    //    }
+    //    DOTween.KillAll();
+
+    //    sceneLoadOperation = SceneManager.LoadSceneAsync(GameController.Instance.SceneIndex);
+
+    //    sceneLoadOperation.allowSceneActivation = false;
+
+    //    UIController.Instance.ShowScreen(ScreenType.Cloud);
+
+    //    while (!sceneLoadOperation.isDone && sceneLoadOperation.progress < 0.9f)
+    //    {
+    //        // UIController.Instance.HideScreen(ScreenType.Cloud);
+    //        if (!clouds.isShowingClouds)
+    //        {
+    //            clouds.ShowClouds();
+    //        }
+    //        yield return null;
+    //    }
+
+    //    // UIController.Instance.HideScreen(ScreenType.Cloud);
+    //    SoundManager._soundManager._otherSounds.SoundToBeUsed(2, SoundManager.Soundtype.other, false, false);
+
+    //    game._fadeImg.DOFade(0f, 0f);
+
+    //    sceneLoadOperation.allowSceneActivation = true;
+
+    //    yield return new WaitForSeconds(0.5f);
+
+    //    SceneLoaderUI.Instance.Hide();
+
+    //    yield return new WaitForSeconds(0.5f);
+
+    //    SoundManager._soundManager._otherSounds.SoundToBeUsed(5, SoundManager.Soundtype.other, false, true);
+
+    //    UIController.Instance.ShowScreen(ScreenType.Gameplay);
+
+    //    SethTheLevelTimer(GameController.Instance.CurrentPlayingLevel);
+
+    //    //transform.parent.GetChild(4).GetComponent<PauseMenuUI>().EnableThePauseMenuEvent();
+
+    //    game.StartTheTimer();
+
+    //    yield return new WaitForSeconds(0.5f);
+
+    //    clouds.RemoveClouds(1f);
+
+    //    UIController.Instance.RemoveUnwantedScreen();
+    //}
+
     IEnumerator SwitchScreen(ScreenType screen)
     {
         UpdateLevelUI();
@@ -83,18 +148,13 @@ public class LevelMapUI : UIScreenView
 
         sceneLoadOperation.allowSceneActivation = false;
 
-        UIController.Instance.ShowScreen(ScreenType.Cloud);
-
         while (!sceneLoadOperation.isDone && sceneLoadOperation.progress < 0.9f)
         {
             // UIController.Instance.HideScreen(ScreenType.Cloud);
-            if (!clouds.isShowingClouds)
-            {
-                clouds.ShowClouds();
-            }
             yield return null;
         }
 
+        Debug.Log("Scene Loaded");
         // UIController.Instance.HideScreen(ScreenType.Cloud);
         SoundManager._soundManager._otherSounds.SoundToBeUsed(2, SoundManager.Soundtype.other, false, false);
 
@@ -110,19 +170,13 @@ public class LevelMapUI : UIScreenView
 
         SoundManager._soundManager._otherSounds.SoundToBeUsed(5, SoundManager.Soundtype.other, false, true);
 
-        UIController.Instance.ShowScreen(ScreenType.Gameplay);
+        UIController.Instance.ShowNextScreen(ScreenType.Gameplay);
 
         SethTheLevelTimer(GameController.Instance.CurrentPlayingLevel);
 
         //transform.parent.GetChild(4).GetComponent<PauseMenuUI>().EnableThePauseMenuEvent();
 
         game.StartTheTimer();
-
-        yield return new WaitForSeconds(0.5f);
-
-        clouds.RemoveClouds(1f);
-
-        UIController.Instance.RemoveUnwantedScreen();
     }
 
     public void ReloadLevelAfterGameOver()

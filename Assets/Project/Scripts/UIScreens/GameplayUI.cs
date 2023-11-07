@@ -26,8 +26,6 @@ public class GameplayUI : UIScreenView
 
     public Image _fadeImg;
 
-    public ControllerMobile _controllerMobile;
-
     public Coroutine _cr;
 
     int seconds;
@@ -290,13 +288,14 @@ public class GameplayUI : UIScreenView
 
         SetBGSound();
 
-        yield return new WaitForSeconds(3.6f);
+        yield return new WaitForSeconds(0.6f);
 
         if (GameController.Instance.CurrentPlayingLevel < 21)
         {
-            yield return new WaitUntil(() => (GameManager.instance.Player._reachedToInitialPoint));
+            Debug.Log("Inside - CountDownTimer");
+         //   yield return new WaitUntil(() => (GameManager.instance.gameObject.activeInHierarchy));
 
-            while (seconds != 0 && GameManager.instance.Player._reachedToInitialPoint)
+            while (seconds != 0)// && GameManager.instance.Player._reachedToInitialPoint)
             {
                 yield return new WaitForSeconds(1f);
 
@@ -314,18 +313,18 @@ public class GameplayUI : UIScreenView
                     _timer.text = min.ToString() + ":" + sec.ToString();
                 }
 
-                while (!GameManager.instance.Player.isRespawned)
-                {
-                    yield return null;
-                }
+                //while (!GameManager.instance.Player.isRespawned)
+                //{
+                //    yield return null;
+                //}
 
-                if (GameManager.instance.currentGameState == GameStates.level_complete || GameManager.instance.currentGameState == GameStates.GameOver
-                    || GameManager.instance.currentGameState == GameStates.level_end_animation)
-                {
-                    StopTheTimer();
+                //if (GameManager.instance.currentGameState == GameStates.level_complete || GameManager.instance.currentGameState == GameStates.GameOver
+                //    || GameManager.instance.currentGameState == GameStates.level_end_animation)
+                //{
+                //    StopTheTimer();
 
-                    break;
-                }
+                //    break;
+                //}
             }
 
             if (seconds <= 0)

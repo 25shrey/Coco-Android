@@ -83,15 +83,14 @@ public class GameController : Singleton<GameController>
 
     void ToggleContinueButton()
     {
+        MainMenuUI menu = UIController.Instance.GetScreen<MainMenuUI>(ScreenType.MainMenu);
         if (SavedDataHandler.Instance._saveData.lastLevelCompleted < 1)
         {
-            var obj = transform.GetChild(1).gameObject.transform.GetChild(1);
-            obj.GetChild(1).gameObject.transform.GetChild(1).gameObject.transform.GetChild(0).gameObject.SetActive(false);
+            menu.continueGameButton.gameObject.SetActive(false);
         }
         else
         {
-            var obj = transform.GetChild(1).gameObject.transform.GetChild(1);
-            obj.GetChild(1).gameObject.transform.GetChild(1).gameObject.transform.GetChild(0).gameObject.SetActive(true);
+            menu.continueGameButton.gameObject.SetActive(true);
         }
     }
 

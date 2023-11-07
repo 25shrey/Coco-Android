@@ -1,3 +1,4 @@
+using Game.BaseFramework;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -83,6 +84,22 @@ public class ControllerMobile : MonoBehaviour
         if (GameController.Instance.SceneIndex > 2)
         {
             GameManager.instance.Player.AttackFireBall();
+        }
+    }
+
+    public void MagnetPower()
+    {
+        if (GameController.Instance.SceneIndex > 2)
+        {
+            GameManager.instance.Player.MagnetPowerUpEffect();
+        }
+    }
+
+    public void ShieldPower()
+    {
+        if (GameController.Instance.SceneIndex > 2)
+        {
+            GameManager.instance.Player.ShieldPowerUpEffect();
         }
     }
 
